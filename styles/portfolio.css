@@ -1,3 +1,97 @@
 body {
-  background-color: blueviolet;
+  font-family: "Rubik", sans-serif;
+  padding: 0;
+}
+.info-top {
+  background: linear-gradient(0, #f7f3ff 0%, #fff 100%);
+}
+.intro {
+  margin-top: 70px;
+  max-width: 1110px;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 72px;
+  margin-bottom: 20px;
+  color: #885df1;
+}
+h2 {
+  font-weight: 300;
+  margin-bottom: 23px;
+  color: #272044;
+  font-size: 25px;
+}
+h3 {
+  font-weight: 300;
+  margin-top: 23px;
+  color: #272044;
+  font-size: 30px;
+}
+.rounded-pill {
+  border-color: #885df1;
+  background-color: #885df1;
+  color: white;
+  padding: 10px 15px;
+  transition: all 150ms ease-in-out;
+  font-size: 20px;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+
+.rounded-pill:hover {
+  background-color: white;
+  color: #885df1;
+  border-color: #885df1;
+  transform: scale(1.075);
+}
+.me {
+  border-radius: 12px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+.info-cards {
+  max-width: 800px;
+  padding: auto;
+}
+.card {
+  min-width: 18rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.rounded {
+  height: 189px;
+  max-width: 100%;
+}
+.read-more {
+  border-radius: 50px;
+  background: transparent;
+  text-decoration: none;
+  color: #885df1;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px 20px;
+  border: none;
+  border: 1px solid #885df1;
+}
+.read-more:hover {
+  background-color: #885df1;
+  color: white;
+  border-color: hsl(257, 84%, 65%);
+}
+.contact-card {
+  background-color: hsl(257, 84%, 65%, 20%);
+  max-width: 100%;
+  vertical-align: middle;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+.text-end {
+  padding-right: 10px;
 }
