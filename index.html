@@ -16,28 +16,53 @@
     <title>Front-end developer-Rita Pereira</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rita Pereira</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact me</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container-fluid info-top">
         <div class="row intro">
             <div class="col-sm-8">
                 <h1>Hey, I'm Rita.</h1>
                 <h2>A front-end developer from Lisbon, in Portugal. <br/>I create websites to help businesses connect with the online world <i class="fas fa-hands"></i></h2>
-                <button type="button" class="btn btn-primary rounded-pill">Contact me</button>
+                <button type="button" class="btn rounded-pill">Contact me</button>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 d-none d-md-block">
                 <img src="/images/me.jpg" alt="Rita Pereira photo" class="img-fluid me">
             </div>
     </div>
     </div>
     <div class="container-fluid info-cards">
-        <div class="row mt-5">
+        <div class="row mt-5 mb-4">
             <div class="col-sm-6 mb-3">
             <div class="card">
                 <img src="/images/planner.jpg" class="card-img-top img-fluid rounded" alt="planner">
                     <div class="card-body">
                         <h5 class="card-title">About me</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-                    <a href="#" class="btn btn-primary read-more">Read more</a>
+                    <p class="card-text">Read more about me and my past experiences</p>
+                    <a href="#" class="btn read-more">Read more</a>
                      </div>
             </div>
             </div>
@@ -46,24 +71,24 @@
                     <img src="/images/work.jpg" class="card-img-top img-fluid rounded" alt="work">
                     <div class="card-body">
                         <h5 class="card-title">My work</h5>
-                        <p class="card-text">Take a look at what I've been working on</p>
-                        <a href="#" class="btn btn-primary read-more">Read more</a>
+                        <p class="card-text">Take a look at what I've been working on recently</p>
+                        <a href="#" class="btn read-more">Read more</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container contact-card my-3 mb-0">
-        <div class="row">
+        <div class="row contact-row">
             <div class="col-sm-6 text-end">
                 <h3>
                     Work Inquiry
                 </h3>
                 <p>
-                    Let's work together
+                    Let's work together!
                 </p>
             </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 button-end">
             <button type="button" class="btn btn-primary rounded-pill">Contact me</button>
         </div>
         </div>
