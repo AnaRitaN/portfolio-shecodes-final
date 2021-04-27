@@ -131,7 +131,8 @@ h3 {
   h1,
   h2,
   .text-end,
-  .button-end {
+  .button-end,
+  .about-description {
     text-align: center !important;
   }
   .button-end {
