@@ -41,13 +41,13 @@ body {
 
 h1 {
   font-weight: 400;
-  font-size: 72px;
+  font-size: 68px;
   margin-bottom: 20px;
   color: var(--primary-color);
 }
 h2 {
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: (var(--secondary-color));
   font-size: 25px;
 }
@@ -74,8 +74,8 @@ h3 {
 }
 .me {
   border-radius: 12px;
-  max-width: 100%;
-  height: auto;
+  width: 326px;
+  height: 250px;
   vertical-align: middle;
 }
 
@@ -121,6 +121,12 @@ h3 {
 .text-end {
   padding-right: 10px;
 }
+@media (max-width: 992px) {
+  .me {
+    display: none;
+  }
+}
+
 @media (max-width: 576px) {
   h1,
   h2,
@@ -133,7 +139,7 @@ h3 {
   }
   h1,
   h3 {
-    font-size: 23px;
+    font-size: 27px;
   }
   h2,
   p,
@@ -148,8 +154,5 @@ h3 {
   .rounded-pill {
     display: block;
     margin: auto;
-  }
-  .me {
-    display: none;
   }
 }
