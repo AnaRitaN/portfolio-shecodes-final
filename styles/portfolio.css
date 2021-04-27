@@ -72,6 +72,20 @@ h3 {
   border-color: var(--primary-color);
   transform: scale(1.075);
 }
+.coming-soon {
+  border-color: var(--primary-color);
+  background-color: white;
+  color: var(--primary-color);
+  padding: 10px 15px;
+  transition: all 150ms ease-in-out;
+  font-size: 20px;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  border-radius: 050rem;
+}
+.coming-soon:hover {
+  color: var(--primary-color);
+}
+
 .me {
   border-radius: 12px;
   width: 326px;
@@ -79,7 +93,8 @@ h3 {
   vertical-align: middle;
 }
 
-.info-cards {
+.info-cards,
+.info-projects {
   max-width: 800px;
   padding: auto;
 }
@@ -121,6 +136,16 @@ h3 {
 .text-end {
   padding-right: 10px;
 }
+
+.work-title {
+  font-weight: 400;
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  text-align: center;
+  margin-top: 20px;
+}
+
 @media (max-width: 992px) {
   .me {
     display: none;
@@ -132,14 +157,16 @@ h3 {
   h2,
   .text-end,
   .button-end,
-  .about-description {
+  .about-description,
+  .weather-app-dsc {
     text-align: center !important;
   }
   .button-end {
     margin-bottom: 5px;
   }
   h1,
-  h3 {
+  h3,
+  .work-title {
     font-size: 27px;
   }
   h2,
