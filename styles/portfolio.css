@@ -181,7 +181,7 @@ h3 {
   .button-end,
   .about-description,
   .weather-app-dsc,
-  .contact-card {
+  .contact-text {
     text-align: center !important;
   }
   .button-end {
@@ -199,10 +199,17 @@ h3 {
   }
   .rounded-pill,
   .card-text,
-  .read-more {
+  .read-more,
+  .coming-soon {
     font-size: 12px;
   }
-  .rounded-pill {
+  .contact-card {
+    margin: 30px 0px;
+    border-radius: 0;
+  }
+  .rounded-pill,
+  .coming-soon,
+  .contact-text {
     display: block;
     margin: auto;
   }
